@@ -1,0 +1,10 @@
+@rootUrl = https://localhost:5001
+
+
+# Create new product
+
+POST {{rootUrl}}/api/v1/products
+Content-Type: application/json
+{
+  "name": "Jayson"
+}
